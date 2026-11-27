@@ -34,7 +34,7 @@ https://voxmate-genai-capstone-bz2f.onrender.com/
 🎥 **Project Demo Video:**  
 https://drive.google.com/file/d/1oWD7tMpcDPKez8YO2VwFNNelb-8g02jM/view?usp=sharing
 
-I would like to express my sincere gratitude to **@Codomax digital solutions** for providing this learning opportunity and platform to enhance my skills, work on practical projects, and explore the potential of Generative AI.
+I would like to express my sincere gratitude to **@Codomax digital Solutions** for providing this learning opportunity and platform to enhance my skills, work on practical projects, and explore the potential of Generative AI.
 
 This milestone has strengthened my understanding of AI application development and motivated me to continue learning, building, and innovating in the field of Artificial Intelligence.
 
