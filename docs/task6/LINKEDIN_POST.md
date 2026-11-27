@@ -1,41 +1,43 @@
-🚀 **Successfully Completed My GenAI Capstone Project – VoxMate AI!**
+🚀 **VoxMate — Generative AI Capstone Project | Module 06**
 
-I’m excited to share my **Module 06 – GenAI Capstone Project**, developed as part of my learning journey with **Syntecxhub**.
+I’m excited to share my **VoxMate AI Agent Platform**, a Generative AI application developed as part of my GenAI Capstone Project!
 
-For this capstone, I developed **VoxMate – An AI Agent Platform**, a Generative AI application designed to demonstrate how intelligent AI agents can understand requests, retrieve information, use tools, and generate meaningful responses.
+This project has been an exciting opportunity to explore and implement modern Generative AI technologies, bringing together **Google Gemini, Prompt Engineering, Retrieval-Augmented Generation (RAG), Tools, and AI Agents**.
 
-💡 **Key Features & Technologies Implemented:**
+### 💡 Key Features & Implementations
 
-- 🤖 Google Gemini API Integration
-- 🧠 AI Agent Planning and Orchestration
-- 📚 Retrieval-Augmented Generation (RAG)
-- ✍️ Prompt Engineering
-- 🛠️ AI Tools and Function Calling
-- 🔐 Application-Level Safety Controls
-- ⚡ FastAPI Backend and API Documentation
-- 📱 React Native / Expo Client
-- 🌐 Live Web Application Deployment
-- 🧪 Automated Testing and Documentation
+🤖 Google Gemini-powered LLM integration  
+🧠 AI Agent planning and orchestration  
+📚 Retrieval-Augmented Generation (RAG)  
+🛠️ Function Calling and Tool Integration with safety controls  
+💾 Persistent Memory and State Management  
+⚡ FastAPI Backend with API Documentation  
+📱 React Native / Expo Client  
+🌐 Live Web Deployment  
+🐳 Docker-based Deployment Support  
+🧪 Automated Testing and Reproducible Demo Environment  
 
-**AI Agent Workflow:**
+### 🔄 Agent Workflow
 
-Understand → Plan → Select Tool → Validate → Execute → Process Results → Generate Response.
+**Understand → Plan → Select Tool → Validate → Execute → Process Result → Respond**
 
-This project has been a valuable opportunity to apply my knowledge of Generative AI, LLM integration, RAG, and AI agent development to a practical application.
+VoxMate goes beyond a traditional chatbot by combining AI reasoning, knowledge retrieval, tool execution, and memory to deliver a more capable AI-powered experience.
 
-A special thanks to **Syntecxhub** for providing this learning opportunity and helping me strengthen my technical skills.
+### 🔗 Project Links
 
-🔗 **Project Links:**
-
-📌 GitHub Repository:  
+💻 **GitHub Repository:**  
 https://github.com/Aadit23042006/voxmate-ai-agent-platform
 
-🌐 Live Website:  
+🌐 **Live Website:**  
 https://voxmate-genai-capstone-bz2f.onrender.com/
 
-🎥 Project Demo Video:  
+🎥 **Project Demo Video:**  
 https://drive.google.com/file/d/1oWD7tMpcDPKez8YO2VwFNNelb-8g02jM/view?usp=sharing
 
-Looking forward to exploring more opportunities and building innovative AI-powered solutions! 🚀
+I would like to express my sincere gratitude to **@Codomax digital solutions** for providing this learning opportunity and platform to enhance my skills, work on practical projects, and explore the potential of Generative AI.
 
-#Syntecxhub #GenAI #GenerativeAI #AIAgents #GoogleGemini #RAG #PromptEngineering #Python #FastAPI #ArtificialIntelligence #CapstoneProject #LearningAndDevelopment
+This milestone has strengthened my understanding of AI application development and motivated me to continue learning, building, and innovating in the field of Artificial Intelligence.
+
+Looking forward to building more impactful AI-powered solutions! 🚀
+
+#CodomaxDigitalSolutions #GenAI #GenerativeAI #GoogleGemini #AIAgents #RAG #PromptEngineering #Python #FastAPI #ArtificialIntelligence #CapstoneProject #LearningAndDevelopment
