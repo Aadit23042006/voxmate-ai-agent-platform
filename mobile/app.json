@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "VoxMate",
+    "slug": "voxmate",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0B0B10"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "VoxMate needs microphone access so you can talk to your assistant.",
+        "NSCameraUsageDescription": "VoxMate needs camera access so you can take a photo to ask about.",
+        "NSPhotoLibraryUsageDescription": "VoxMate needs photo library access so you can attach a photo to ask about."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.aadit23.voxmate"
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "VoxMate needs microphone access so you can talk to your assistant."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "VoxMate needs photo library access so you can attach a photo to ask about.",
+          "cameraPermission": "VoxMate needs camera access so you can take a photo to ask about."
+        }
+      ],
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "849b4b7c-503d-40e7-854e-062c7b30831f"
+      }
+    },
+    "owner": "aadit23"
+  }
+}

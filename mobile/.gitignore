@@ -1,0 +1,208 @@
+# ============================================================
+# VOXMATE MOBILE — GITIGNORE
+# Expo | React Native | Android | iOS
+# Production / Company-Ready Security Configuration
+# ============================================================
+
+
+# ============================================================
+# EXPO
+# ============================================================
+
+.expo/
+.expo-shared/
+
+dist/
+web-build/
+
+
+# ============================================================
+# GENERATED NATIVE PROJECTS
+# Expo Prebuild / CNG
+# ============================================================
+
+android/
+ios/
+
+
+# ============================================================
+# DEPENDENCIES
+# ============================================================
+
+node_modules/
+
+
+# ============================================================
+# ENVIRONMENT & SECRETS
+# ============================================================
+
+# Ignore all local environment files
+.env
+.env.*
+
+# Keep only the safe environment template
+!.env.example
+
+
+# ============================================================
+# FIREBASE / GOOGLE SERVICES
+# ============================================================
+
+# Firebase / Google mobile configuration
+google-services.json
+
+# Firebase Admin SDK / service-account credentials
+firebase-adminsdk*.json
+*firebase-adminsdk*.json
+*service-account*.json
+
+# Generic Google / Firebase credential exports
+*google*credentials*.json
+*firebase*credentials*.json
+
+# Private keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+
+# ============================================================
+# CREDENTIALS / SECRETS / TOKENS
+# ============================================================
+
+# Generic credential files
+credentials.json
+credentials*.json
+
+# Generic secret files
+secrets.json
+secrets*.json
+
+# Authentication / token files
+tokens.json
+token.json
+tokens*.json
+token*.json
+
+# Local secret directories
+secrets/
+.local/
+.local-*/
+
+
+# ============================================================
+# DEBUG & PACKAGE MANAGER LOGS
+# ============================================================
+
+# npm
+npm-debug.log*
+npm-debug.*.log*
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm
+pnpm-debug.log*
+pnpm-debug.*.log*
+
+# General logs
+*.log
+
+
+# ============================================================
+# TEMPORARY / BACKUP FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.backup.*
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# EDITOR / IDE FILES
+# ============================================================
+
+.vscode/
+.idea/
+*.iml
+
+
+# ============================================================
+# LOCAL BUILD / ARCHIVE ARTIFACTS
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Android build artifacts
+*.apk
+*.aab
+
+# iOS build artifacts
+*.ipa
+
+
+# ============================================================
+# LOCAL DATABASE / CACHE FILES
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+
+# ============================================================
+# TYPESCRIPT / BUILD CACHE
+# ============================================================
+
+*.tsbuildinfo
+
+
+# ============================================================
+# EXPO / REACT NATIVE LOCAL CONFIGURATION
+# ============================================================
+
+# Local Expo / EAS state
+.eas/
+.eas.json
+
+# Local Metro / React Native cache
+.metro/
+.metro-cache/
+
+# React Native generated temporary files
+*.hbc
+
+
+# ============================================================
+# LOCAL DEVELOPMENT ARTIFACTS
+# ============================================================
+
+coverage/
+.cache/
+temp/
+tmp/

@@ -1,0 +1,241 @@
+﻿# ============================================================
+# VOXMATE TASK 6 — ROOT GITIGNORE
+# Python Backend | FastAPI | Docker | Expo / React Native
+# Production / Company-Ready Security Configuration
+# ============================================================
+
+
+# ============================================================
+# ENVIRONMENT & SECRETS
+# ============================================================
+
+# Ignore real environment files everywhere
+**/.env
+**/.env.*
+
+# IMPORTANT:
+# Environment templates are intentionally allowed.
+# These rules MUST appear after the broad .env rules.
+!/.env.example
+!**/.env.example
+
+
+# ============================================================
+# SERVICE ACCOUNTS / FIREBASE / GOOGLE CREDENTIALS
+# ============================================================
+
+**/*service-account*.json
+**/*firebase-adminsdk*.json
+**/google-services.json
+**/*private-key*.json
+
+**/secrets/
+
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+**/__pycache__/
+
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+.venv_*/
+env/
+ENV/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+
+# ============================================================
+# TESTING / COVERAGE / TYPE CHECKING
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+
+# ============================================================
+# DATABASE & LOCAL DATA
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db-shm
+*.db-wal
+
+task5_demo.db
+test.db
+
+postgres_data/
+redis_data/
+pgdata/
+
+
+# ============================================================
+# NODE / EXPO / REACT NATIVE
+# ============================================================
+
+node_modules/
+**/node_modules/
+
+.expo/
+.expo-shared/
+**/.expo/
+**/.expo-shared/
+
+web-build/
+**/web-build/
+
+*.tsbuildinfo
+
+android/
+ios/
+**/android/
+**/ios/
+
+
+# ============================================================
+# LOGS & TEMPORARY FILES
+# ============================================================
+
+*.log
+
+npm-debug.log*
+npm-debug.*.log*
+
+yarn-debug.log*
+yarn-error.log*
+
+pnpm-debug.log*
+pnpm-debug.*.log*
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# DOCKER
+# ============================================================
+
+docker-compose.override.yml
+docker-compose.override.yaml
+
+.env.docker
+**/.env.docker
+
+docker-data/
+docker-volumes/
+
+
+# ============================================================
+# EDITORS / IDEs
+# ============================================================
+
+.vscode/
+.idea/
+*.iml
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# LOCAL PROJECT ARTIFACTS
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+task5-final-verification/
+dist-final-audit/
+
+*.backup
+*.backup.*
+*.bak
+
+.local/
+.local-*
+
+
+# ============================================================
+# SECURITY: CREDENTIALS / SECRETS / TOKENS
+# ============================================================
+
+credentials.json
+credentials*.json
+**/credentials.json
+**/credentials*.json
+
+secrets.json
+secrets*.json
+**/secrets.json
+**/secrets*.json
+
+token.json
+tokens.json
+**/token.json
+**/tokens.json
+
+**/*secret*.json
+**/*secrets*.json
+**/*token*.json
+**/*tokens*.json
+
+
+# ============================================================
+# SECURITY: CLOUD / API CREDENTIAL FILES
+# ============================================================
+
+**/*google*credentials*.json
+**/*google*service*.json
+**/*firebase*credentials*.json
+**/*oauth*credentials*.json
+**/*auth*credentials*.json
+
+
+# ============================================================
+# GIT / LOCAL METADATA
+# ============================================================
+
+*.orig
+*.rej
